@@ -3,8 +3,8 @@
 % Especialidad: Ingenieria en Sistemas Computacionales
 %Title       : Resolucion de tres inecuaciones 
 %Descricion  :Script para solucionar desigualdades 
-%Autor       :Ambar Itzel Cruz Zarza
-%Date        :202123174
+%Autor       :Ambar Itzel Cruz Zarza,Adrián lovera Bombela 
+%Date        :202123174,202123498
 % Usage      :octave/ desk/inecuaciones 
 %Nota        :Se requiere el programa de octave
 
@@ -34,6 +34,7 @@ plot(x,y,'r')
 xlabel('eje de abcisas');
 ylabel('eje de ordenadas');
 
+
 %Inecuaciones de valor absoluto 
 syms x
 disp("Inecuaciones de Valor Absoluto")
@@ -49,6 +50,7 @@ plot([0 0],[-15 15])
 plot(x,sign(y)*5,'bs-',"markersize",12)
 xlabel("Eje X","fontsize",20)
 title( "El intervalo es: (-oo,-9)")
+
 
 subplot(3,3,4)
 x=[-5:100]
