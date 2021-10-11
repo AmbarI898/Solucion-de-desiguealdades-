@@ -3,8 +3,8 @@
 % Especialidad: Ingenieria en Sistemas Computacionales
 %Title       : Resolucion de tres inecuaciones 
 %Descricion  :Script para solucionar desigualdades 
-%Autor       :Ambar Itzel Cruz Zarza
-%Date        :202123174
+%Autor       :Ambar Itzel Cruz Zarza, Fernando Jesús Paredes Martínez, 
+%Date        :202123174 - 202123322
 % Usage      :octave/ desk/inecuaciones 
 %Nota        :Se requiere el programa de octave
 
@@ -23,6 +23,7 @@ ylabel('-00');
 title('el intervalo es')
 disp('Define la variable de segundo grado');
 
+
 % solucion de inecuaciones de segundo grado
 disp('Solucion de la inecuacion de segundo grado');
 syms x
@@ -33,6 +34,7 @@ y=(x.^2)-2*x+3
 plot(x,y,'r')
 xlabel('eje de abcisas');
 ylabel('eje de ordenadas');
+
 
 %Inecuaciones de valor absoluto 
 syms x
@@ -50,6 +52,7 @@ plot(x,sign(y)*5,'bs-',"markersize",12)
 xlabel("Eje X","fontsize",20)
 title( "El intervalo es: (-oo,-9)")
 
+%inecuaciones de tercer grado
 subplot(3,3,4)
 x=[-5:100]
 y=x+7
